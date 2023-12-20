@@ -117,7 +117,7 @@
             this.Controls.Add(this.btnDel);
             this.Controls.Add(this.btnAdd);
             this.Name = "Main";
-            this.Text = "StudentsDiary";
+            this.Text = "Dziennik";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Main_FormClosed);
             this.Load += new System.EventHandler(this.Main_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDiary)).EndInit();

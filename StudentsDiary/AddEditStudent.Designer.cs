@@ -258,7 +258,7 @@
             this.MinimumSize = new System.Drawing.Size(343, 412);
             this.Name = "AddEditStudent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AddEditStudent";
+            this.Text = "Student";
             this.ResumeLayout(false);
             this.PerformLayout();
 
