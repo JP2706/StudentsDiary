@@ -20,10 +20,10 @@ namespace StudentsDiary
         public void SerializeToFile(T students)
         {
             var serializer = new XmlSerializer(typeof(T));
-            using (var streamwriter = new StreamWriter(filePath))
+            using (var streamWriter = new StreamWriter(filePath))
             {
-                serializer.Serialize(streamwriter, students);
-                streamwriter.Close();
+                serializer.Serialize(streamWriter, students);
+                streamWriter.Close();
             }
 
         }
